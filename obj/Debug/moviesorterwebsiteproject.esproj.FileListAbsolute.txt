@@ -1,0 +1,3 @@
+C:\Users\tmonc\source\repos\MovieSorterWebsiteProject\obj\Debug\moviesorterwebsiteproject.esproj.CoreCompileInputs.cache
+E:\MovieSorterWebsiteProject\obj\Debug\moviesorterwebsiteproject.esproj.CoreCompileInputs.cache
+E:\Repro\WebsiteMovieSorter\obj\Debug\moviesorterwebsiteproject.esproj.CoreCompileInputs.cache

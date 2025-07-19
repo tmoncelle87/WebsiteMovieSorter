@@ -1,0 +1,61 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+}
+
+/* Make html and body take up the full viewport */
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100vh; /* Make body at least the height of the viewport */
+    display: flex; /* Use flexbox to easily center content horizontally */
+    justify-content: center; /* Center horizontally */
+    align-items: flex-start; /* Align content to the top initially, or center if you want the *entire* app vertically centered */
+    background-color: #242424; /* Your background color */
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif; /* Your font */
+}
+
+/* Styles for your main React app container */
+#root {
+    width: 100%; /* Default to 100% of body width */
+    max-width: 1200px; /* Example: A common max-width for desktop content */
+    min-height: 100vh; /* Make sure the root div also takes at least the full viewport height */
+    /* If you want a background for your actual app content, apply it here */
+    /* background-color: #ffffff; */
+    /* padding: 20px; */ /* Example padding if you want space inside the root container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Example shadow */
+    /* If you want the content *within* #root to be centered, use flexbox here too */
+    display: flex;
+    flex-direction: column; /* Or row, depending on your app's main layout direction */
+    align-items: center; /* Center items within #root horizontally */
+    justify-content: flex-start; /* Align items to the top within #root */
+}
+.Web-Header {
+    display: flex;
+    height: 8vh; /* full viewport height */
+    justify-content: center; /* horizontal center */
+    margin-top: 100px;
+}
+.Description {
+    display: flex;
+
+    justify-content: center; /* horizontal center */
+    align-items: center; /* vertical center */
+}
+h1 {
+    font-size: 50px;
+    color: lightgrey;
+    font-weight: bold;
+    margin: 0;
+}
+
+#Movie-Name-Input-Text {
+    font-size: 20px;
+    color: grey;
+    font-weight: normal;
+    margin: 0;
+}

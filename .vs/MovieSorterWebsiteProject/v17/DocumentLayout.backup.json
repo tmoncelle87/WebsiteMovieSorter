@@ -1,0 +1,98 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Repro\\WebsiteMovieSorter\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7459516D-CF14-0679-BCD5-9AE635FDFBBF}|moviesorterwebsiteproject.esproj|e:\\repro\\websitemoviesorter\\src\\navigationallinks.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{7459516D-CF14-0679-BCD5-9AE635FDFBBF}|moviesorterwebsiteproject.esproj|solutionrelative:src\\navigationallinks.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7459516D-CF14-0679-BCD5-9AE635FDFBBF}|moviesorterwebsiteproject.esproj|e:\\repro\\websitemoviesorter\\src\\index.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{7459516D-CF14-0679-BCD5-9AE635FDFBBF}|moviesorterwebsiteproject.esproj|solutionrelative:src\\index.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7459516D-CF14-0679-BCD5-9AE635FDFBBF}|moviesorterwebsiteproject.esproj|e:\\repro\\websitemoviesorter\\src\\guide.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7459516D-CF14-0679-BCD5-9AE635FDFBBF}|moviesorterwebsiteproject.esproj|solutionrelative:src\\guide.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7459516D-CF14-0679-BCD5-9AE635FDFBBF}|moviesorterwebsiteproject.esproj|e:\\repro\\websitemoviesorter\\src\\guide.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{7459516D-CF14-0679-BCD5-9AE635FDFBBF}|moviesorterwebsiteproject.esproj|solutionrelative:src\\guide.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 963,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Guide.css",
+              "DocumentMoniker": "E:\\Repro\\WebsiteMovieSorter\\src\\Guide.css",
+              "RelativeDocumentMoniker": "src\\Guide.css",
+              "ToolTip": "E:\\Repro\\WebsiteMovieSorter\\src\\Guide.css",
+              "RelativeToolTip": "src\\Guide.css",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-07-17T00:21:28.633Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NavigationalLinks.jsx",
+              "DocumentMoniker": "E:\\Repro\\WebsiteMovieSorter\\src\\NavigationalLinks.jsx",
+              "RelativeDocumentMoniker": "src\\NavigationalLinks.jsx",
+              "ToolTip": "E:\\Repro\\WebsiteMovieSorter\\src\\NavigationalLinks.jsx",
+              "RelativeToolTip": "src\\NavigationalLinks.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-07-19T13:27:21.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Guide.jsx",
+              "DocumentMoniker": "E:\\Repro\\WebsiteMovieSorter\\src\\Guide.jsx",
+              "RelativeDocumentMoniker": "src\\Guide.jsx",
+              "ToolTip": "E:\\Repro\\WebsiteMovieSorter\\src\\Guide.jsx",
+              "RelativeToolTip": "src\\Guide.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-07-13T01:12:34.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "index.jsx",
+              "DocumentMoniker": "E:\\Repro\\WebsiteMovieSorter\\src\\index.jsx",
+              "RelativeDocumentMoniker": "src\\index.jsx",
+              "ToolTip": "E:\\Repro\\WebsiteMovieSorter\\src\\index.jsx",
+              "RelativeToolTip": "src\\index.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-07-17T00:24:07.487Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

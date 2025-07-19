@@ -1,0 +1,60 @@
+.buttons-container {
+    display: flex;
+    outline: none;
+    box-shadow: none;
+    gap: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    flex-direction: column; /* Or row, depending on your app's main layout direction */
+    align-items: center; /* Center items within #root horizontally */
+    justify-content: flex-start; /* Align items to the top within #root */
+
+
+}
+.Movie-Name-Input-Button {
+    width: 300px;
+    height: 200px;
+    color: white;
+    font-size: 50px;
+    background-color: dimgray;
+
+    border-radius: 50px;
+    box-shadow: none;
+    /* Add these lines to remove the black edge */
+    border: none;
+    outline: none;
+}
+.Movie-File-Upload-Button {
+    width: 300px;
+    height: 200px;
+    color: floralwhite;
+    font-size: 50px;
+    background-color: dimgray;
+
+    border-radius: 50px;
+    border: none;
+    outline: none;
+}
+    .Movie-Name-Input-Button:hover, .Movie-File-Upload-Button:hover {
+        transform: translateY(-1px); /* Move up on hover */
+        box-shadow: 0px 50px 70px rgba(0, 0, 0, 0.3); /* Add shadow */
+        font-weight: bold;
+    }
+@keyframes simple-shake {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(-5px);
+    }
+
+    100% {
+        transform: translateX(5px);
+    }
+}
+
+.Movie-File-Upload-Button:active, .Movie-Name-Input-Button:active {
+    animation: simple-shake 0.2s ease;
+}
