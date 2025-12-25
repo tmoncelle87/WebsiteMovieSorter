@@ -1,4 +1,4 @@
-nav ul li a {
+nav ul li {
     color: white;
     text-decoration: none;
     font-family: "Times New Roman", serif;
@@ -7,23 +7,39 @@ nav ul li a {
     margin-left: -25px;
     font-weight: 50;
     margin-right: 5px;
+    margin-top: 0px;
  
 }
 nav ul {
     list-style: none;
 }
 
-    nav ul li a.disabled-link {
-        pointer-events: none;
-        color: white;
-        text-decoration: none;
-        font-family: "Times New Roman", serif;
-        color: lightgray;
 
-
-        font-weight: 50;
-    }
-    nav ul li a:hover{
+    nav ul li:hover {
         font-weight: bold;
         color: white;
     }
+
+    buttom{
+        margin:auto;
+    }
+
+@keyframes simple-shake {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(-5px);
+    }
+
+    100% {
+        transform: translateX(5px);
+    }
+}
+
+Button:active {
+    animation: simple-shake 0.2s ease;
+}
+
+

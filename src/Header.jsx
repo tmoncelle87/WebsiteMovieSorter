@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <header className="site-header">
           
-            <h1>Movie Sorter Website Developed By Tony Moncelle</h1>
+            <h1>Movie Sorter Website <br/> Developed By Tony</h1>
             <NavigationalLinks />
         </header>
     );

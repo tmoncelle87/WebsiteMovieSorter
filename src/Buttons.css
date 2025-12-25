@@ -2,7 +2,7 @@
     display: flex;
     outline: none;
     box-shadow: none;
-    gap: 50px;
+   
     margin-top: auto;
     margin-bottom: auto;
     display: flex;
@@ -18,7 +18,7 @@
     color: white;
     font-size: 50px;
     background-color: dimgray;
-
+    margin-bottom: 40px;
     border-radius: 50px;
     box-shadow: none;
     /* Add these lines to remove the black edge */
@@ -58,3 +58,6 @@
 .Movie-File-Upload-Button:active, .Movie-Name-Input-Button:active {
     animation: simple-shake 0.2s ease;
 }
+
+
+

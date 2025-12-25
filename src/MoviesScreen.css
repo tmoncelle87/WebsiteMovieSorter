@@ -1,0 +1,46 @@
+/* This centers the popup over the screen */
+.Movies-Popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+/* Contains the entire popup content */
+.Movies-Popup-Content {
+    background-color: white;
+    width: 600px;
+    max-height: 80vh;            /* Limit height */
+    padding: 20px;
+    overflow-y: auto;            /* Scrollable if content too tall */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+/* Scroll only inside this area */
+.Movie-List-Box {
+    background-color: #f4f4f4;
+    padding: 15px;
+    height: 200px;               /* Fixed height */
+    overflow-y: auto;            /* Scroll only this */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevent page from scrolling */
+}

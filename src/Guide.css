@@ -17,6 +17,7 @@ body {
     align-items: flex-start; /* Align content to the top initially, or center if you want the *entire* app vertically centered */
     background-color: #242424; /* Your background color */
     font-family: system-ui, Avenir, Helvetica, Arial, sans-serif; /* Your font */
+    overflow-y: auto;
 }
 
 /* Styles for your main React app container */
@@ -35,16 +36,29 @@ body {
     justify-content: flex-start; /* Align items to the top within #root */
 }
 .Web-Header {
+    padding: 15px 0;
+    width: 100%;
+    font-size: clamp(1rem, 3vw, 2.5rem);
     display: flex;
-    height: 8vh; /* full viewport height */
-    justify-content: center; /* horizontal center */
-    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
 }
-.Description {
-    display: flex;
+    .Web-Header h1 {
+        margin-top: 20px;
+ 
+        font-size: clamp(1rem, 8vw, 2.5rem);
+    }
 
-    justify-content: center; /* horizontal center */
-    align-items: center; /* vertical center */
+.MovieNameInputDescription,
+.MovieFileUploadDescription {
+    margin: 10px 25px;
+    text-align: justify;
+    font-size: clamp(1rem, 5vw, 2rem);
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Removed fixed height */
 }
 h1 {
     font-size: 50px;
@@ -54,8 +68,79 @@ h1 {
 }
 
 #Movie-Name-Input-Text {
-    font-size: 20px;
+    font-size: 25px;
     color: grey;
     font-weight: normal;
     margin: 0;
+}
+#Movie-File-Upload-Text {
+    font-size: 25px;
+    color: grey;
+    font-weight: normal;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.Button {
+    display: flex;
+    outline: none;
+    box-shadow: none;
+
+    margin-top: 0px;
+    margin-bottom: auto;
+    display: flex;
+    flex-direction: column; /* Or row, depending on your app's main layout direction */
+    align-items: center; /* Center items within #root horizontally */
+    justify-content: flex-start; /* Align items to the top within #root */
+}
+
+
+.Movie-Name-Input-Button,
+.Movie-File-Upload-Button {
+    width: 90vw;
+    max-width: 300px;
+    height: auto;
+    padding: 20px;
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
+    color: white;
+    background-color: dimgray;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    margin-top: 15px;
+}
+    .Movie-Name-Input-Button:hover, .Movie-File-Upload-Button:hover {
+        transform: translateY(-1px); /* Move up on hover */
+        box-shadow: 0px 50px 70px rgba(0, 0, 0, 0.3); /* Add shadow */
+        font-weight: bold;
+    }
+
+@keyframes simple-shake {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(-5px);
+    }
+
+    100% {
+        transform: translateX(5px);
+    }
+}
+
+.Movie-File-Upload-Button:active, .Movie-Name-Input-Button:active {
+    animation: simple-shake 0.2s ease;
 }
